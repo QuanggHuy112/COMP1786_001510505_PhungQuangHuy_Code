@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="result_placeholder">Result will show here</string>
+</resources>

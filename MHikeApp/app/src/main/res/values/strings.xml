@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M-Hike</string>
+    <string name="add_hike">Add Hike</string>
+    <string name="hike_list">Hike List</string>
+    <string name="hike_details">Hike Details</string>
+    <string name="observations">Observations</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.mhike.app-debug-4:/menu_menu_main.xml.flat",
+        "source": "com.example.mhike.app-main-6:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_confirmation.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_confirmation.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/drawable_rounded_button.xml.flat",
+        "source": "com.example.mhike.app-main-6:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/menu_menu_detail.xml.flat",
+        "source": "com.example.mhike.app-main-6:/menu/menu_detail.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/drawable_menu_button_bg.xml.flat",
+        "source": "com.example.mhike.app-main-6:/drawable/menu_button_bg.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_search.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_item_observation.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/item_observation.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_menu_search_button.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/menu_search_button.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_dialog_add_observation.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/dialog_add_observation.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_observation.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_observation.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_menu_delete_button.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/menu_delete_button.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_hike_detail.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_hike_detail.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_item_hike.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/item_hike.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/layout_activity_add_hike.xml.flat",
+        "source": "com.example.mhike.app-main-6:/layout/activity_add_hike.xml"
+    },
+    {
+        "merged": "com.example.mhike.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.mhike.app-main-6:/drawable/ic_launcher.xml"
+    }
+]

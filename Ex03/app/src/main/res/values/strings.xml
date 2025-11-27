@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContactDB</string>
+    <string name="add_contact">Thêm</string>
+    <string name="avatar">Avatar</string>
+    <string name="avatar_preview">Avatar preview</string>
+    <string name="choose_avatar">Chọn avatar</string>
+    <string name="name">Tên</string>
+    <string name="phone">SĐT</string>
+    <string name="save">Lưu</string>
+</resources>

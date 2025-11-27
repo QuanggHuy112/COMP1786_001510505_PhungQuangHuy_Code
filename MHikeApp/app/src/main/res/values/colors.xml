@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue Modern -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <!-- Button / white surfaces -->
+    <color name="surfaceWhite">#FFFFFF</color>
+    <color name="surfaceBorder">#E0E0E0</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#212121</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+</resources>

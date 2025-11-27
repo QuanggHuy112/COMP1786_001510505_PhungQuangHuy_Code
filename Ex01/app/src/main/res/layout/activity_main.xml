@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvOperand1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/tvOperand2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/textResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result_placeholder"
+                android:textSize="18sp"
+                android:paddingTop="6dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="−"
+                android:textSize="20sp"
+                android:layout_marginLeft="6dp"/>
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="×"
+                android:textSize="20sp"
+                android:layout_marginLeft="6dp"/>
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="÷"
+                android:textSize="20sp"
+                android:layout_marginLeft="6dp"/>
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/keypad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <Button android:id="@+id/btn1" android:text="1"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn2" android:text="2"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn3" android:text="3"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn4" android:text="4"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn5" android:text="5"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn6" android:text="6"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn7" android:text="7"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn8" android:text="8"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn9" android:text="9"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btnDot" android:text="."
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btn0" android:text="0"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+
+            <Button android:id="@+id/btnBack" android:text="⌫"
+                android:layout_width="0dp" android:layout_height="64dp"
+                android:layout_columnWeight="1"/>
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="Clear"/>
+
+            <Button
+                android:id="@+id/btnSwitch"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:text="Switch Input"
+                android:layout_marginLeft="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
